@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { Provider } from 'react-redux';
-import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+// import * as serviceWorker from './serviceWorker';
+import reportWebVitals from './reportWebVitals';
+import App from './App';
 import rootReducer from './reducers';
+import './index.scss';
 
 const store = createStore(rootReducer);
 
