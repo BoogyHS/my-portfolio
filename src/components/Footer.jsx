@@ -1,4 +1,3 @@
-import React from 'react';
 import FilterLink from './FilterLink';
 import { VisibilityFilters } from 'actions/todoActions';
 
@@ -15,6 +14,6 @@ const Footer = () => (
             Completed
         </FilterLink>
     </div>
-)
+);
 
 export default Footer;
