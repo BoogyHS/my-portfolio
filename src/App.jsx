@@ -1,6 +1,6 @@
-import Footer from './components/Footer'
-import AddTodo from './components/AddTodo'
-import VisibleTodoList from './components/VisibleTodoList'
+import Footer from './components/Footer';
+import AddTodo from './components/AddTodo';
+import VisibleTodoList from './components/VisibleTodoList';
 
 const App = () => {
 	return (
